@@ -72,7 +72,84 @@
             </p>
         </section>
         <section id="answers" class="container">
+            <form id="form1">
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname"
+            </form> 
+            <form id="form2">
+                <p>What city would you visit first</p>
+                    <input type="radio"><label id="chicago" name="chicago">chicago</label> 
+                    <input type="radio"><label id="rockford" name="rockford">rockford</label>
+                    <input type="radio"><label id="galena" name="galena">galena</label>
+                    <input type="radio"><label id="springfield" name="springfield">springfield</label>
+                    <input type="radio"><label id="peoria" name="peoria">peoria</label>
+            </form>
+            <form id="form3">
+                <p>What city would visit</p>
+                    <input type="checkbox" id="chicago2" name="chicago" value="chicago">
+                    <label for="chicago">chicago</label><br>
+                    <input type="checkbox" id="rockford2" name="rockford" value="rockford">
+                    <label for="rockford">rockford</label><br>
+                    <input type="checkbox" id="galena2" name="galena" value="galena">
+                    <label for="galena">galena</label><br>
+                    <input type="checkbox" id="springfield2" name="springfield" value="springfield">
+                    <label for="springfield">springfield</label><br>
+                    <input type="checkbox" id="peoria2" name="peoria" value="peoria">
+                    <label for="peoria">peoria</label><br> 
+            </form>
+            <form id="form4">
+                <p>favorite sports team </p>
+                    <select id="sports team" name="teams">
+                        <option value="bulls">bulls</option>
+                        <option value="bears">bears</option>
+                        <option value="cubs">cubs</option>
+                    </select>
+            </form>
+            <form id="form5">
+                <p>favorite color </p>
+                <label for="favcolor">Select favorite color</label><br>
+                <input type="color" id="favcolor" name="favcolor">
+            </form>
+            <form id="form6">
+                <p>enter current-date</p>
+                <label for="current-date">current-date</label>
+                <input type="date" id="current-date" name="current-date">
+            </form>
+            <form id="form7">
+                <p>current-date-time</p>
+                    <label for="current-date-time">current date(date&time)</label><br>
+                    <input type="datetime-local" id="current-date-time" name="current-date-time">
+            </form>
+            <form id="form8">
+                <p>Email</p>
+                    <label for="Email">Enter your Emali</label><br>
+                    <input type="email" id="email" name="email">
 
+            </form>
+            <form id="form9">
+                <p>Enter Word Doc</p>
+                    <label for="word-doc">Attach file</label>
+                    <input type="file" id="word-doc" name="word-doc">
+            </form>
+            <form id="form10">
+                <p>Enter a number</p>
+                    <label for="quantity">Enter a number</label>
+                    <input type="number" id="quantity" name="quantity" min="1" max="20">
+            </form>
+            <form id="form11">
+                <p>Bday Year and month</p>
+                    <label for="bdaymonth-year">birth month(year)</label>
+                    <input type="month" id="bdaymonth-year" name="bdaymonth-year">
+            </form>
+            <form id="form12">
+                <p>username and password</p>
+                    <label for="username">Username</label><br>
+                    <input type="text" id="username" name="username">
+                    <label for="pwd">password</label><br>
+                    <input type="password" id="pwd" name="pwd">
+            </form>
         </section>
         <script src="" async defer></script>
     </body>

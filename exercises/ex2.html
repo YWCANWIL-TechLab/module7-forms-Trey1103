@@ -84,7 +84,74 @@
             </p>
         </section>
         <section id="answers" class="container">
-
+            <form id="form1">
+                <p>First and last name</p>
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="fname" value="jhon"><br>
+                    <label for="mname">Middle Name</label><br>
+                    <input type="text" id="mname" name="mname" value="mname" disabled><br>
+                    <label for="lname">Last Name</label><br>
+                    <input type="text" id="lname" name="lname" value="doe"><br>
+            </form>
+            <form id="form3">
+                <p>Username and password</p>
+                    <label for="username">Username</label>
+                    <input type="text" id="Username" name="Username"><br>
+                    <label for="password">password</label>
+                    <input type="password" id="password" name="password" readonly>
+            </form>
+            <form id="form4">
+                <p>Leave a review</p>
+                   <label for="review">Leave a review</label><br>
+                   <textarea name="review" cols="50" rows="1"></textarea>    
+            </form>
+            <form id="form5">
+                <p>Leave another review</p>
+                    <label for="review2">leave a review</label><br>
+                    <textarea name="review2" cols="100" rows="5"></textarea>
+            </form>
+            <form id="form6">
+                <p>date of Covid-19</p>
+                    <label for="Covid-19">Enter date from Covid-19</label>
+                    <input type="date" min="2020-01-31" max="2023-05-11">               
+            </form>
+            <form id="form7">
+                <p>Html files</p>
+                    <label for="files">attach files</label>
+                    <input type="file" id="files" name="file" multiple>
+            </form>
+            <form id="form8">
+                <p>questions</p>
+                    <label for="questions">Type here for questions</label>
+                    <input type="search" id="questions" name="questions"> 
+            </form>
+            <form id="form9">
+                <p>Whats your favnumber?</p>
+                    <label for="favnumber">Enter favnumber</label>
+                    <input type="number" id="favnumber" name="favnumber" autofocus>
+            </form>
+            <form id="form10">
+                <p>Number(0-100)</p>
+                    <label for="numbers">pick a number(0-100)</label>
+                    <input type="range" id="number" name="number" min="0" max="100">
+            </form>
+            <form id="form11">
+                <p>Last and First Name</p>
+                    <label for="fname2">First Name</label>
+                    <input type="image"  src="" id="fname2" name="fname2">
+                    <label for="lname2">Last Name</label>
+                    <input type="image" src="" id="lname2" name="lname2">
+            </form>
+            <form id="form12">
+                <p>Favorite Fruit</p>
+                    <label for="fruit">Enter Your Favorite Fruit</label>
+                    <input list="fruit">
+                    <datalist id="fruit">
+                        <option value="strawberries">
+                        <option value="grapes">
+                        <option value="apples">
+                    </datalist>
+            </form>
         </section>
         <script src="" async defer></script>
     </body>
